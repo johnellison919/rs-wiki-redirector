@@ -1,0 +1,7 @@
+# Chrome auto-generates this when loading an unpacked extension
+_metadata/
+
+# Packaged build artifacts
+*.zip
+*.crx
+*.pem

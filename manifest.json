@@ -1,0 +1,19 @@
+{
+  "manifest_version": 3,
+  "name": "RS Wiki Redirector",
+  "version": "1.0.0",
+  "description": "Redirects old RuneScape Fandom wiki URLs to their equivalents on runescape.wiki.",
+  "permissions": ["declarativeNetRequest"],
+  "host_permissions": [
+    "*://runescape.fandom.com/*"
+  ],
+  "declarative_net_request": {
+    "rule_resources": [
+      {
+        "id": "ruleset_1",
+        "enabled": true,
+        "path": "rules.json"
+      }
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "priority": 1,
+    "action": {
+      "type": "redirect",
+      "redirect": {
+        "regexSubstitution": "https://runescape.wiki/w/\\1"
+      }
+    },
+    "condition": {
+      "regexFilter": "^https?://runescape\\.fandom\\.com/wiki/(.*)$",
+      "resourceTypes": ["main_frame"]
+    }
+  }
+]
